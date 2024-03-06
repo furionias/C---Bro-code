@@ -24,8 +24,7 @@ int main(){
     cout << "Num 4:";
     cin >> num4;
 
-    switch (op)
-    {
+    switch (op){
     case '+':
       int result = num1 + num2 + num3 + num4;
       cout << result;
